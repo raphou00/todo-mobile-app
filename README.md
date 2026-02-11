@@ -1,77 +1,79 @@
-# Todo Mobile App
+# 📝 Todo List – React Native + Expo
 
-A simple, clean, and portfolio-ready Todo application built with React Native and Expo. This app allows users to efficiently manage their tasks, featuring task creation, completion toggling, and deletion, with data persistence across app launches.
+Short one-sentence description of the project.
 
-## Features
+> A simple mobile Todo application built with React Native and Expo that allows users to create, manage, and track daily tasks.
 
-*   **Add New Tasks**: Easily add new todo items via an intuitive input field.
-*   **Toggle Completion**: Mark tasks as complete or incomplete with a single tap. Completed tasks are visually distinguished (strikethrough text).
-*   **Delete Tasks**: Remove unwanted tasks with a confirmation prompt.
-*   **Data Persistence**: All tasks are saved locally on the device using `AsyncStorage`, ensuring your todo list remains intact even after closing the app.
-*   **Clean UI/UX**: A minimalist and modern design using `@expo/vector-icons` for clear visual cues.
-*   **TypeScript**: Developed with TypeScript for better code quality, maintainability, and fewer runtime errors.
+## 📱 Features
 
-## Technologies Used
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Persist tasks locally (AsyncStorage)
 
-*   **React Native**: For building native mobile applications using JavaScript/TypeScript.
-*   **Expo**: A framework and platform for universal React applications, simplifying development and deployment.
-*   **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
-*   **`@react-native-async-storage/async-storage`**: For persistent key-value storage.
-*   **`uuid`**: For generating unique IDs for todo items.
-*   **`@expo/vector-icons`**: For a wide range of customizable vector icons.
+## 🛠 Tech Stack
 
-## Getting Started
+- **React Native**
+- **Expo**
+- **TypeScript / JavaScript**
+- **AsyncStorage**
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+## 🚀 Installation & Setup
 
-### Prerequisites
+### 1️⃣ Clone the repository
 
-*   Node.js (LTS version recommended)
-*   npm or Yarn (npm is used in this guide)
-*   Expo Go app on your iOS or Android device (download from App Store or Google Play)
-
-### Installation
-
-1.  **Clone the repository (if applicable, though for this context you've been given the files):**
-    ```bash
-git clone <repository-url>
+```bash
+git clone https://github.com/raphou00/todo-mobile-app.git
 cd todo-mobile-app
-    ```
+```
 
-2.  **Install dependencies:**
-    ```bash
+### 2️⃣ Install dependencies
+
+```bash
 npm install
-    ```
+```
 
-### Running the Application
+### 3️⃣ Start the Expo server
 
-1.  **Start the Expo development server:**
-    ```bash
-npm start
-    ```
-    This will open a new tab in your web browser with the Expo Developer Tools.
+```bash
+npx expo start
+```
 
-2.  **Open on your device:**
-    *   **iOS**: Open the **Expo Go** app on your iPhone and scan the QR code displayed in your terminal or the web browser.
-    *   **Android**: Open the **Expo Go** app on your Android device and scan the QR code. You might also be able to tap "Run on Android device/emulator" from the web interface.
+Then scan the QR code with the Expo Go app.
 
-The app should load on your device within Expo Go.
-
-## Project Structure
+## 📂 Project Structure
 
 ```
-.
-├── App.tsx             # Main application entry point
-├── app.json            # Expo configuration file
-├── babel.config.js     # Babel configuration
-├── package.json        # Project dependencies and scripts
-├── tsconfig.json       # TypeScript configuration
-└── src/
-    ├── components/
-    │   ├── TodoInput.tsx   # Component for adding new tasks
-    │   └── TodoItem.tsx    # Component for displaying individual tasks
-    ├── screens/
-    │   └── HomeScreen.tsx  # Main screen managing todo logic and state
-    └── types/
-        └── index.ts        # TypeScript type definitions (e.g., for Todo)
+/src
+  /components
+  /screens
+  /types
+App.tsx
 ```
+
+Brief explanation:
+
+- `components/` → Reusable UI components
+- `screens/` → Application screens
+- `types/` → Types
+
+## 🧠 Technical Highlights
+
+- State management using React hooks
+- Local persistence with AsyncStorage
+- Component-based architecture
+- Clean folder structure
+- Mobile-first responsive layout
+
+## 🔮 Possible Improvements
+
+- Add authentication
+- Cloud sync (Firebase / Supabase)
+- Push notifications
+- Dark mode
+- Unit testing
+- Better ui
+
+## 📄 License
+
+MIT License
