@@ -1,7 +1,5 @@
 # 📝 Todo List – React Native + Expo
 
-Short one-sentence description of the project.
-
 > A simple mobile Todo application built with React Native and Expo that allows users to create, manage, and track daily tasks.
 
 ## 📱 Features
